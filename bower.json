@@ -1,0 +1,17 @@
+{
+  "name": "blarg",
+  "homepage": "https://github.com/TSturtledove/pretty",
+  "authors": [
+    "TSturtledove <roberttortorelli@yahoo.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
