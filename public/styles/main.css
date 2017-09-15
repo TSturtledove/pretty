@@ -1,1 +1,28 @@
 /*Go nuts kid*/
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image:
+    linear-gradient(
+      to bottom right,
+      #bb9043,
+      #ffffff 70%
+      );
+}
+
+.dog {
+  display: flex;
+  height: 500px;
+  width: 600px;
+  margin:auto;
+  padding: 15px, auto, 15px, auto;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image:
+    linear-gradient(
+      to top left,
+      #cc7645,
+      #ffffff 70%
+      );
+}
