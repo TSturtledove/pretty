@@ -1,0 +1,25 @@
+{
+  "name": "blarg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./app.js",
+    "frontend": "nodemon ./public/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TSturtledove/pretty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TSturtledove/pretty/issues"
+  },
+  "homepage": "https://github.com/TSturtledove/pretty#readme",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-route": "^1.6.6"
+  }
+}
