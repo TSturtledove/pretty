@@ -1,4 +1,17 @@
 /*Go nuts kid*/
+
+
+/*
+    font-family: 'Droid Serif', serif;
+    font-family: 'Bitter', serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Amatic SC', cursive;
+    font-family: 'Cinzel', serif;
+    font-family: 'Sorts Mill Goudy', serif;
+    */
+
+
+
 body {
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -11,6 +24,7 @@ body {
 }
 
 .dog {
+  font-family: 'Amatic SC', cursive;
   display: flex;
   height: 500px;
   width: 600px;
