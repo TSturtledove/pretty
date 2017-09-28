@@ -40,3 +40,33 @@ body {
       #ffffff 70%
       );
 }
+
+.cinzel {
+  font-family: 'Cinzel', serif;
+  font-size: 3rem;
+}
+
+.cinzelsmall {
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+}
+
+.droids {
+  font-family: 'Droid Serif', serif;
+  font-size: 1rem;
+}
+
+.bitter {
+  font-family: 'Bitter', serif;
+  font-size: 1rem;
+}
+
+.josefin {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1rem;
+}
+
+.mill {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 1rem;
+}
