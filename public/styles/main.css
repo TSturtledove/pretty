@@ -70,3 +70,9 @@ body {
   font-family: 'Sorts Mill Goudy', serif;
   font-size: 1rem;
 }
+
+.flextest {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
