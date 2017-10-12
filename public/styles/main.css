@@ -76,3 +76,18 @@ body {
   flex-wrap: nowrap;
   justify-content: space-around;
 }
+
+.greenbox {
+  height: auto;
+  width: auto;
+  margin: 15px;
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-image:
+            linear-gradient(
+              to left,
+              #88567d,
+              #a8976a 70%
+              );
+}
