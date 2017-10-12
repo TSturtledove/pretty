@@ -77,6 +77,13 @@ body {
   justify-content: space-around;
 }
 
+.flexb {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+
 .greenbox {
   height: auto;
   width: auto;
