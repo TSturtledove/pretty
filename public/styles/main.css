@@ -71,6 +71,9 @@ body {
   font-size: 1rem;
 }
 
+.flexbox{
+  display: flex;
+}
 .flextest {
   display: flex;
   flex-wrap: nowrap;
@@ -83,6 +86,11 @@ body {
   justify-content: space-between;
 }
 
+.flexend{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
 
 .greenbox {
   height: auto;
@@ -97,4 +105,21 @@ body {
               #88567d,
               #a8976a 70%
               );
+}
+
+.bluebox {
+  display: flex;
+  height: 400px;
+  width: 300px;
+  margin: 15px;
+  padding: 15px;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-image:
+            linear-gradient(
+              to left,
+              #5dfe23,
+              #6edf31 70%
+              );
+
 }
