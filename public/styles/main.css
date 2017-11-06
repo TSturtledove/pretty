@@ -123,3 +123,15 @@ body {
               );
 
 }
+
+.flexRowReverse{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.flexColumnReverse{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
