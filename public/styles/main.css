@@ -135,3 +135,8 @@ body {
   flex-direction: column-reverse;
   justify-content: space-around;
 }
+
+.simple{
+  text-decoration: none;
+  
+}
