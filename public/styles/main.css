@@ -138,5 +138,19 @@ body {
 
 .simple{
   text-decoration: none;
-  
+
+}
+
+.brownbox{
+  border: 5px solid;
+  font-size: 2rem;
+  /*border-width: 5px;*/
+  border-color: #bc9999;
+  /*linear-gradient(
+              to left,
+              #4aed42,
+              #7faed1 70%
+              );*/
+  border-radius: 10px;
+  padding: 5px;
 }
