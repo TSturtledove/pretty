@@ -154,3 +154,18 @@ body {
   border-radius: 10px;
   padding: 5px;
 }
+
+.switchbutton input[type=checkbox]{
+  display: none;
+  padding: 20px;
+}
+
+.switchbutton label{
+  display: inline-block;
+  margin: 15px;
+  background-color: #1ee3af;
+}
+
+.switchbutton input[type=checkbox]:checked+label{
+  background-color: #99ffd2;
+}
