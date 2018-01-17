@@ -10,24 +10,24 @@ app.config(["$routeProvider", function($routeProvider) {
   }).when("/flexbox", {
       templateUrl: "angularpartials/flexbox.html",
       controller: "flexcon"
-  }).when("/", {
-      templateUrl: "",
-      controller: ""
-  }).when("/", {
-      templateUrl: "",
-      controller: ""
-  }).when("/", {
-      templateUrl: "",
-      controller: ""
-  }).when("/", {
-      templateUrl: "",
-      controller: ""
-  }).when("/", {
-      templateUrl: "",
-      controller: ""
-  }).when("/", {
-      templateUrl: "",
-      controller: ""
+  // }).when("/", {
+  //     templateUrl: "",
+  //     controller: ""
+  // }).when("/", {
+  //     templateUrl: "",
+  //     controller: ""
+  // }).when("/", {
+  //     templateUrl: "",
+  //     controller: ""
+  // }).when("/", {
+  //     templateUrl: "",
+  //     controller: ""
+  // }).when("/", {
+  //     templateUrl: "",
+  //     controller: ""
+  // }).when("/", {
+  //     templateUrl: "",
+  //     controller: ""
   }).otherwise({
     redirectTo:"/"
   })
