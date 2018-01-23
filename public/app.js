@@ -1,5 +1,5 @@
 
-const app = agular.module("Pretty", ["ngRoute"]);
+const app = angular.module("Pretty", ["ngRoute"]);
 
 app.config(["$routeProvider", function($routeProvider) {
 
@@ -10,9 +10,9 @@ app.config(["$routeProvider", function($routeProvider) {
   }).when("/flexbox", {
       templateUrl: "angularpartials/flexbox.html",
       controller: "flexcon"
-  // }).when("/", {
-  //     templateUrl: "",
-  //     controller: ""
+  }).when("/button", {
+      templateUrl: "angularpartials/button.html",
+      controller: "buttoncon"
   // }).when("/", {
   //     templateUrl: "",
   //     controller: ""

@@ -169,3 +169,20 @@ body {
 .switchbutton input[type=checkbox]:checked+label{
   background-color: #99ffd2;
 }
+
+.buttonstyle {
+  font-size: 1rem;
+  border-radius: 15%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image:
+    linear-gradient(
+      to bottom right,
+      #70dbdb,
+      #33cca6 70%
+      );
+  padding: 5px;
+  margin: 5px;
+  /*background-color: #33cca6;*/
+  border: none;
+}
