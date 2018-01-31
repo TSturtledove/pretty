@@ -9,9 +9,9 @@ const cors =require("cors");
 const routes = require("./server/routes/");
 // console.log("routes", routes)
 const session = require("express-session");
-const passport = require("passport");
-const KnexSessionStore = require("connect-session-knex")(session);
-const { knex } = require("./db/database");
+// const passport = require("passport");
+// const KnexSessionStore = require("connect-session-knex")(session);
+// const { knex } = require("./db/database");
 
 
 const app = express();
@@ -22,13 +22,13 @@ app.use(cors())
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false}));
-
-require("./server/lib/passport-strategies")
-app.use(passport.initialize())
-app.use(passport.session())
-
+//
+// require("./server/lib/passport-strategies")
+// app.use(passport.initialize())
+// app.use(passport.session())
+// console.log("yo bacon")
 app.use(express.static("public"))
-app.use("/api/v1/", routes);
+// app.use("/api/v1/", routes);
 
 
 //the catch for the 404 error
