@@ -170,16 +170,21 @@ body {
   background-color: #99ffd2;
 }
 
+
+  /* linear-gradient(
+    to bottom right,
+    #bb9043,
+    #ffffff 70 */
 .buttonstyle {
   font-size: 1rem;
-  border-radius: 15%;
+  border-radius: 10%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-image:
     linear-gradient(
       to bottom right,
-      #70dbdb,
-      #33cca6 70%
+      #c99969,
+      #ffffff 70%
       );
   padding: 5px;
   margin: 5px;
