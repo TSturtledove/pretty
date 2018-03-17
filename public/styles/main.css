@@ -23,6 +23,73 @@ body {
       );
 }
 
+.jar {
+  /* font-family: 'Amatic SC', cursive; */
+  display: flex;
+  height: 100px;
+  width: 200px;
+  margin:auto;
+  padding: 15px, auto, 15px, auto;
+  justify-content: center;
+
+}
+
+.lid1 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image:
+    linear-gradient(
+      to top left,
+      #66c2ff,
+      #ffffff 90%
+      );
+}
+
+.lid2 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image:
+    linear-gradient(
+      to top left,
+      #339933,
+      #ffffff 90%
+      );
+}
+
+
+.lid3 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image:
+    linear-gradient(
+      to top left,
+      #d24dff,
+      #ffffff 90%
+      );
+}
+
+.lid4 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image:
+    linear-gradient(
+      to top left,
+      #ff1a1a,
+      #ffffff 90%
+      );
+}
+
+.lid5 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image:
+    linear-gradient(
+      to top left,
+      #66c2ff,
+      #ffffff 90%
+      );
+}
+
 .dog {
   font-family: 'Amatic SC', cursive;
   display: flex;
