@@ -23,6 +23,11 @@ body {
       );
 }
 
+.crate {
+  display: flex;
+  justify-content: space-around;
+}
+
 .jar {
   /* font-family: 'Amatic SC', cursive; */
   display: flex;
@@ -33,6 +38,7 @@ body {
   justify-content: center;
 
 }
+
 
 .lid1 {
   background-repeat: no-repeat;
