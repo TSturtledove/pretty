@@ -25,16 +25,18 @@ body {
 
 .crate {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
 .jar {
   /* font-family: 'Amatic SC', cursive; */
   display: flex;
+  /* flex-wrap: wrap; */
   height: 100px;
   width: 200px;
   margin:auto;
-  padding: 15px, auto, 15px, auto;
+  padding: 15px, 15px, 15px, 15px;
   justify-content: center;
 
 }
@@ -92,6 +94,17 @@ body {
     linear-gradient(
       to top left,
       #66c2ff,
+      #ffffff 90%
+      );
+}
+
+.lid6 {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image:
+    linear-gradient(
+      to top left,
+      #7ffa44,
       #ffffff 90%
       );
 }
