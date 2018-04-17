@@ -1,5 +1,7 @@
 app.controller("colorcon", function($scope, $route) {
 
-  $scope.thing = "Home"
+  $scope.jam = "cinzelsmall"
+  $scope.jelly = "bitter"
+  $scope.butter ="droids"
 
 })
