@@ -8,6 +8,11 @@
     font-family: 'Amatic SC', cursive;
     font-family: 'Cinzel', serif;
     font-family: 'Sorts Mill Goudy', serif;
+    font-family: 'IM Fell English SC', serif;
+    font-family: 'Kurale', serif;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Spirax', cursive;
+
     */
 
 
@@ -156,6 +161,27 @@ body {
   font-family: 'Sorts Mill Goudy', serif;
   font-size: 1rem;
 }
+
+.fell {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 1rem;
+}
+
+.kurale {
+  font-family: 'Kurale', serif;
+  font-size: 1rem;
+}
+
+.fredericka {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 1rem;
+}
+
+.spirax {
+  font-family: 'Spirax', cursive;
+  font-size: 1rem;
+}
+
 
 .flexbox{
   display: flex;
