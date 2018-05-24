@@ -19,9 +19,9 @@ app.config(["$routeProvider", function($routeProvider) {
   }).when("/colors", {
       templateUrl: "angularpartials/colorstuff.html",
       controller: "colorcon"
-  // }).when("/", {
-  //     templateUrl: "",
-  //     controller: ""
+  }).when("/functions", {
+      templateUrl: "angularpartials/func.html",
+      controller: "functionCon"
   // }).when("/", {
   //     templateUrl: "",
   //     controller: ""
