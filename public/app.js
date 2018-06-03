@@ -2,6 +2,7 @@
 const app = angular.module("Pretty", ["ngRoute"]);
 
 app.config(["$routeProvider", function($routeProvider) {
+  // console.log("not")
 
   $routeProvider
   .when("/", {
