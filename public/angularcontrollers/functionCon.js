@@ -1,6 +1,5 @@
-app.controller("functionCon", function($scope, $route) {
+app.controller("functionCon", function($scope, $route, $http) {
   let count = 1
-  console.log("hi")
   $scope.jam = "cinzelsmall"
   $scope.jelly = "bitter"
   $scope.butter ="droids"
