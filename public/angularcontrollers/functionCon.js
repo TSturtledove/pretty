@@ -4,11 +4,11 @@ app.controller("functionCon", function($scope, $route, $http) {
   $scope.jelly = "bitter"
   $scope.butter ="droids"
   $scope.number = count
-  const popPage = function() {
-    $scope.number = count
-    console.log("tellme")
-    $scope.$apply()
-  }
+  // const popPage = function() {
+  //   $scope.number = count
+  //   console.log("tellme")
+  //   $scope.$apply()
+  // }
 
   $scope.trythis = () =>{
     console.log("yo")
@@ -18,6 +18,11 @@ app.controller("functionCon", function($scope, $route, $http) {
     popPage()
   }
 
+
+
+// Can't tell what is wrong here and why the function won't fire,
+// it seems that the pages connect alright but the ng-click is not
+// working right.
   $scope.Profile = () => {
     console.log("you hit the profile button")
   //   authFactory.gatecheck()
