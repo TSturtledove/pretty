@@ -23,6 +23,10 @@ app.controller("functionCon", function($scope, $route, $http) {
 // Can't tell what is wrong here and why the function won't fire,
 // it seems that the pages connect alright but the ng-click is not
 // working right.
+// Looked up something interesting, console.log() and alert() are evaluated against
+// the global window object, ng-click is an Angular.JS expression and evaluated against
+// scope, which does not have access to the window.  So console.log() and alert() don't
+// work in ng-click functions
   $scope.Profile = () => {
     console.log("you hit the profile button")
   //   authFactory.gatecheck()
